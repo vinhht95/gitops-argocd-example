@@ -16,8 +16,8 @@ spec:
         app: solar-system
     spec:
       containers:
-      - image: siddharth67/solar-system:v10
-        name: solar-system1
+      - image: siddharth67/solar-system:v5
+        name: solar-system5
         imagePullPolicy: Always
         ports: 
         - containerPort: 80
